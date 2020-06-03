@@ -1,0 +1,32 @@
+section.home-about
+    .imgswing-left
+        .img
+            img(src="./img/home/h-1/left.png", alt="")
+    //- .imgswing-right1
+    //-     .img
+    //-         img(src="./img/home/h-1/right1.png", alt="")
+    //- .imgswing-right2
+    //-     .img
+    //-         img(src="./img/home/h-1/right2.png", alt="")
+    .about-wrapper
+        .container
+            .img-icon
+                img(src="./img/home/h-1/cloud.png", alt="")
+            .title
+                p câu chuyện của chúng tôi
+                h2 vinatoy - diệu kỳ tuổi thơ
+            .content
+                p Vinatoy là thương hiệu xe và đồ chơi trẻ em được sản xuất và phân phối bởi Công ty NCL Nhựa Chợ</br> Lớn, cùng lòng yêu thương và mong muốn đóng góp tích cực cho trẻ. Với sứ mệnh kiến tạo nên</br> tuổi thơ tràn ngập tiếng cười và ý nghĩa, Vinatoy tin rằng, xã hội sẽ tốt đẹp hơn nếu các bậc cha mẹ</br> Việt Nam luôn có thể yên tâm rằng xe và đồ chơi của con mình thực sự giúp cuộc sống của trẻ</br> thêm phong phú và giàu trải nghiệm!
+            .row
+                - for(i=1; i<5;i++)
+                    .col-lg-3
+                        .item
+                            figure
+                                .img
+                                    img(src="./img/home/h-1/icon1.png", alt="")
+                                figcaption
+                                    p.count-up 29
+                                    p năm kinh nghiệm</br> sản xuất xe và</br> đồ chơi
+            .box
+                .button
+                    a(href="#") Về chúng tôi

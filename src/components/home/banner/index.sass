@@ -1,0 +1,78 @@
+.home-banner
+    position: relative
+    .swiper-container
+        .swiper-slide, .banner1
+            figure
+                position: relative
+                .img
+                    width: 100%
+                    img
+                        width: 100%
+                figcaption
+                    position: absolute
+                    top: 45%
+                    left: 1rem
+                    transform: translateY(-50%)
+                    .title
+                        h2
+                            color: #e52322
+                            font-size: 2.8rem
+                            text-transform: uppercase
+                    .content
+                        color: #333333
+                        font-size: 1.6rem
+                        font-weight: 200
+                        margin-bottom: .5rem
+                    .button
+                        display: flex
+                        align-items: center
+                        justify-content: center
+                        background: #e52322
+                        width: 10rem
+                        height: 2.5rem
+                        border-radius: 1.5rem
+                        text-align: center
+                        color: #Fff
+                        a
+                            font-size: 1rem
+                            text-transform: uppercase
+        .banner4
+            figure
+                position: relative
+                .img
+                    width: 100%
+                    img
+                        width: 100%
+                figcaption
+                    .title
+                        h2
+                            color: #ebce0b
+        .swiper-pagination
+            position: absolute
+            bottom: 0
+            transform: translateY(-5%)
+            span
+                width: .7rem
+                height: .7rem
+            .swiper-pagination-bullet
+                background: none
+                border: 1px solid #fff
+                opacity: 1
+            .swiper-pagination-bullet-active
+                background: #fff
+                outline: none
+    .banner-img
+        position: absolute
+        bottom: -3%
+        left: 0
+        z-index: 9
+        width: 100%
+        img
+            width: 100%
+@media (min-width: 576px)
+    .home-banner
+        figure
+            figcaption
+                width: 100%
+        .banner-img
+            bottom: 0
